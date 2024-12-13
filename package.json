@@ -8,7 +8,9 @@
   "scripts": {
     "start": "next start",
     "dev": "next dev",
-    "build": "next build"
+    "build": "next build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "next": "^15.1.0",
@@ -16,8 +18,17 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@chromatic-com/storybook": "3.2.2",
+    "@storybook/addon-essentials": "8.4.7",
+    "@storybook/addon-interactions": "8.4.7",
+    "@storybook/addon-onboarding": "8.4.7",
+    "@storybook/blocks": "8.4.7",
+    "@storybook/nextjs": "8.4.7",
+    "@storybook/react": "8.4.7",
+    "@storybook/test": "8.4.7",
     "@types/node": "22.10.2",
     "@types/react": "19.0.1",
+    "storybook": "8.4.7",
     "typescript": "5.7.2"
   }
 }
